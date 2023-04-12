@@ -1,0 +1,45 @@
+  body{
+  
+    margin:0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(193, 101, 165, 0.591);
+}
+
+.card{
+    background-color: rgb(216, 190, 204);
+    padding: 50px;
+    width: 500px;
+    border-radius: 0px 0px 8px 8px;
+    align-items: center;
+}
+.header {
+    background-color: black;
+    color:beige;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+border-radius: 8px 8px 0px opx;
+}
+@media only screen and (max-width: 650px) {
+    body {
+        width:100%;
+        background-color: green;
+        font-size: smaller;
+    }
+    .card {
+        width: 375px;
+        background-color: rgb(152, 181, 152);
+        align-items: center;
+        
+    }
+ 
+    .h1{
+        width: 10px;
+        font-size: xx-small;
+        
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head> 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+   
+</head>
+<body>
+    <main>
+   <header class="header">
+    <h1>The Digital Academy Registration Form</h1>
+   </header>
+   
+    <form class="card" onsubmit="return false;">
+
+    <label for="fname">Enter your name:</label><br>
+    <input type="text" id="fname" name="name"><br>
+
+    <label for ="surname">Enter your surname</label><br>
+    <input type="text" id="surname" name="surname"><br>
+
+    <label for ="email">Email</label><br>
+    <input type="text" id="email" name="email"><br>
+
+    <label for ="occupation">occupation</label><br>
+    <input type="text" id="occupation" name="occupation"><br>
+
+    <label for ="country">Country</label><br>
+    <select id="text" id="country" name="country"><br>
+    <option value="none"selected disabled>Select country</option>
+    <option value="southAfrica">South Africa"</option>
+    <option value="england">England</option>
+    <option value="australia">Australia</option><br>
+
+     <input type="submit" value="Register" onclick="getFormValues()">
+
+</form> 
+</main>
+
+    
+</body>
+</html>
